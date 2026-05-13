@@ -1,0 +1,9 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc"
+  }
+}
