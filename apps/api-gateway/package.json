@@ -3,10 +3,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "fastify": "^5.8.5",
     "@fastify/http-proxy": "^11.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "tsx": "^4.21.0",
+    "@types/node": "^25.7.0"
   }
 }
